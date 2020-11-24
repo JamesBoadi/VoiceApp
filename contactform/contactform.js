@@ -110,7 +110,7 @@ jQuery(document).ready(function ($) {
 
     $.ajax({
       type: "GET",
-      url: 'http://jamesboadi.com/sendMessage?', //'http://jamesboadi.com/',
+      url: 'http://jamesboadi.com/', //'http://jamesboadi.com/',
      
       //'http://jamesboadi.com:22/sendMessage?',
    //   http://127.0.0.1:8001/sendMessage

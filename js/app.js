@@ -38,7 +38,7 @@ let sendMes = async function (name, email, subject, message) {
 }
 
 // Registration
-server.all('/sendMessage', async function (req, res, next) { // callback
+server.all('/', async function (req, res, next) { // callback
 
   let name = new String(req.query.name);
   let email = new String(req.query.email);
