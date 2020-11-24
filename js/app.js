@@ -59,4 +59,4 @@ server.all('/', async function (req, res, next) { // callback
   next();
 });
 
-module.exports = app;
+module.exports = server;
